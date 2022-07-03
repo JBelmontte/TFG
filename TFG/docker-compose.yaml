@@ -1,0 +1,22 @@
+version: "3.7"
+
+services:
+
+  streamlit:
+    image: myapp:latest
+    container_name: streamlit_container
+    ports:
+      - 8501:8501
+    volumes:
+      - ./:/app/
+      - ./db/:/db/
+    depends_on:
+      - sqlite3
+    
+  sqlite3:
+    image: nouchka/sqlite3:latest
+    container_name: sqlite3_container
+    stdin_open: true
+    tty: true
+    volumes:
+      - ./db/:/db/
