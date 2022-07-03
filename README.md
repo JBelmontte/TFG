@@ -4,5 +4,5 @@ Diseño e implementación de una herramienta bioinformática para la gestión y 
 
 Universidad de Murcia - Hospital Universitario Virgen de la Arrixaca
 
-Autor: Jose María Belmonte Martínez - Grado en Ingeniería Informática Curso 2021/22
+Autor: Jose María Belmonte Martínez - Grado en Ingeniería Informática - Curso 2021/22
 
